@@ -230,7 +230,7 @@ section h2{
   margin-bottom: 32px;
     /* animation  */
   opacity: 0;
-  transform: translateX(-30px);
+  transform: translateY(-30px);
   animation: apparition 0.8s 0.4s ease-out forwards;
 }
 
@@ -239,7 +239,7 @@ section p{
   margin-bottom: 15px;
     /* animation  */
   opacity: 0;
-  transform: translateX(-30px);
+  transform: translateY(-30px);
   animation: apparition 0.8s 0.7s ease-out forwards;
 }
 
@@ -253,7 +253,7 @@ section button{
   font-weight: bold;
     /* animation  */
   opacity: 0;
-  transform: translateX(-30px);
+  transform: translateY(-30px);
   animation: apparition 0.8s 1s ease-out forwards;
 }
 
