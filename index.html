@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PortfolioByAlil/Home</title>
+    <link rel="icon" type="image/x-icon" href="ressources/favicon-portfolio.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="coverImage">
+        <header>
+            <div class="bloc">
+                <div class="titre">
+                    <a href="index.html"><h1>PortfolioByAlil</h1></a>
+                </div>
+                <div class="navbar">
+                   <a href="index.html" style="color: #FFD700; font-weight: bold;"><i class="fa-solid fa-house" style="color: #FFD700;"></i> Home</a>
+                   <a href="mybackground.html"><i class="fa-solid fa-book"></i> My background</a>
+                   <a href="myProjects.html"><i class="fa-solid fa-briefcase"></i> My projects</a>
+                   <a href="contact.html"><i class="fa-solid fa-phone"></i> Contact me</a>
+                </div>
+
+                
+
+                            <!-- code modal for login && sign Up-->
+
+                <!-- <button class="modalButton" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button> -->
+<!--                              -->
+                    <!-- <div id="id01" class="modal animate"> -->
+<!--                      -->
+                      <!-- <form action="/action_page.php" method="post"> -->
+<!--  -->
+                        <!-- login modal  -->
+                        <!-- <div class="imgcontainer"> -->
+                          <!-- <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span> -->
+                          <!-- <img src="ressources/sigularUserAvatar.jpg" alt="Avatar" class="avatar"> -->
+                        <!-- </div> -->
+<!--                      -->
+                        <!-- <div class="container"> -->
+                          <!-- <label for="uname"><b>Username</b></label> -->
+                          <!-- <input type="text" placeholder="Enter Username" name="uname" required> -->
+<!--                          -->
+                          <!-- <label for="psw"><b>Password</b></label> -->
+                          <!-- <input type="password" placeholder="Enter Password" name="psw" required> -->
+<!--                              -->
+                          <!-- <button class="loginButton" type="submit">Login</button> -->
+                          <!-- <label> -->
+                            <!-- <input type="checkbox" checked="checked" name="remember"> Remember me -->
+                          <!-- </label> -->
+                        <!-- </div> -->
+<!--                      -->
+                        <!-- <div class="container" style="background-color:#f1f1f1"> -->
+                          <!-- <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button> -->
+                          <!-- <span class="psw">Forgot <a href="#">password?</a></span> -->
+                        <!-- </div> -->
+                      <!-- </form> -->
+                    <!-- </div> -->
+
+                    <div class="burger">
+                      <i class="fa-solid fa-bars fa-2x hamburger "></i>
+                    </div>
+        </header>
+
+            <section>
+                <h2>I am Pouo'si Alil</h2>
+                <p>And I'm a graphic designer</p>
+                <a href="myProjects.html"><button>Hire me</button></a>
+            </section>
+    </div>
+
+    <!-- script Js pour le burger -->
+    <script>
+      const menuHamburger = document.querySelector(".hamburger");
+      const navLinks = document.querySelector(".navbar");
+      const section = document.querySelector('section');
+      menuHamburger.addEventListener('click',()=>{
+      navLinks.classList.toggle('mobile-menu');
+      section.classList.toggle('section-none')
+      })
+    </script>
+    
+    <script src="index.js"></script>
+</body>
+</html>
